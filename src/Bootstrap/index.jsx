@@ -14,7 +14,7 @@ class Bootstrap extends Component {
             <Navbar collapseOnSelect expand="lg fixed-top">
               <div className="container-fluid">
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-//                 <Navbar.Collapse className="justify-content-center" id="responsive-navbar-nav">
+                 <Navbar.Collapse className="justify-content-center" id="responsive-navbar-nav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <a className="nav-link" href="#Home">Home</a>
