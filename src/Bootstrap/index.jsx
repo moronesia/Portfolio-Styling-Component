@@ -1,7 +1,7 @@
-// import React from "react";
+
 import "./style.css";
 import React, { Component } from "react";
-import { Navbar } from "react-bootstrap";
+
 class Bootstrap extends Component {
 
     render () {
