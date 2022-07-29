@@ -1,0 +1,205 @@
+/* navbar start */
+
+nav {
+    background-color: #000;
+  }
+  
+  span.navbar-toggler-icon {
+    background-color: #EF4D06;
+  }
+  
+  a.navbar-brand {
+    color: #EF4D06;
+  }
+  
+  a.nav-link {
+    color: #EF4D06;
+  }
+  
+  a.nav-link:hover {
+    color: #fff;
+  }
+
+  /* navbar End */
+
+
+  .Skills {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 140px;
+  }
+  
+  .Others {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 140px;
+  }
+  
+  .Friends {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 140px;
+  }
+  
+  .Contact {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 160px;
+  }
+
+
+  /* Header Start */
+
+  .jumbotron {
+
+    height: 625px;
+    background-image: url("./../assets/img/bennerpng.png");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    position: relative;
+  
+  }
+  
+  h1.display-4 {
+    font-family: sans-serif;
+    font-weight: 25px;
+    color: #fff;
+    padding-top: 170px;
+  
+      
+  }
+  
+  h1 span {
+    color: #EF4D06;
+  }
+  
+  p.satu {
+    font-family: sans-serif;
+    color: #fff;
+  }
+  
+  button.btn.btn-primary {
+    background-color: #EF4D06;
+    border: none;
+    margin-top: 10px;
+  }
+
+  /* Header End */
+
+  /* Skills Start */
+
+  h1.satu {
+    text-align: center;
+    padding-top: 41px;
+  }
+  
+  .card-body {
+    box-shadow: 7px 5px 5px;
+    border-radius: 8px;
+  }
+  
+  h5.card-title {
+    color: #EF4D06;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  /* Skills End */
+
+  /* Others Start */
+  h1.dua {
+    padding-top: 25px;
+    text-align: center;
+  }
+  
+  h5.judul {
+    font-family: inherit;
+    font-weight: bold;
+    margin-left: 5px;
+    color: #EF4D06;
+  }
+  
+  p.text {
+    margin-left: 5px;
+    font-family: sans-serif;
+  }
+  /* Others End */
+
+  /* Friends Start */
+  h1.tiga {
+    text-align: center;
+    padding-top: 41px;
+    margin-bottom: 40px;
+  }
+  
+  hr.garis {
+    height: 2px;
+    background-color: #000;
+    border: none;
+  }
+  
+  h5.heading {
+    color: #EF4D06;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  p.alamat {
+    text-align: center;
+    font-family: inherit;
+    font-weight: bold;
+  }
+  /* Friends End */
+
+
+  /* Contact Start */
+  form {
+
+    background-color: #000;
+    padding-top: 20px;
+    padding-bottom: 5px;
+   }
+   
+   label.form-label {
+     font-family: sans-serif;
+     color: #fff;
+   }
+   
+   h1.empat {
+     text-align: center;
+     padding-top: 41px;
+     margin-top: 30px;
+   }
+   
+   button.btn.tombol.mb-3 {
+     background-color: #EF4D06;
+     font-family: sans-serif;
+     font-weight: inherit;
+     border: none;
+   }
+   
+   button.btn.tombol.mb-3:hover{
+     color: #fff;
+   }
+  /* Contact End */

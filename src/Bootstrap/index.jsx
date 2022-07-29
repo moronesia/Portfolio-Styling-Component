@@ -1,21 +1,206 @@
-import React from "react";
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Nav, Navbar } from "react-bootstrap";
+// import React from "react";
+import "./style.css";
+import React, { Component } from "react";
+class Bootstrap extends Component {
 
-
-export default class Bootstrap extends React.Component {
     render () {
         return(
-            <Navbar bg="dark" variant="dark">
-                <Container>
-                  <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-                    <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
-                    </Nav>
-                </Container>
-            </Navbar>
+
+            <React.Fragment>
+           
+            {/* navbar start */}
+
+            <nav className="navbar navbar-expand-lg fixed-top">
+                <div className="container-fluid">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul className="navbar-nav">
+                    <li className="nav-item">
+                        <a className="nav-link" href="#Home">Home</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#Skills">Skills</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#Others">Others</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#Friends">Friends</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#Contact">Contact Me</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+
+            {/* navbar End */}
+
+            {/* Header Start */}
+
+            <header className="jumbotron">
+            <div className="container">
+                <h1 className="display-4">I'm <span>Tunjung Anjasmoro</span></h1>
+                <p className="satu">Saat ini saya bekerja sebagai SEO Staff sebagai Link Building Specialist <br />untuk berbagai perusahaan industri dalam upaya peningkatan pemasaran secara digital.</p>
+                <button type="button" className="btn btn-primary">Hire me</button>
+            </div>
+            </header>
+
+            {/* Header End */}
+
+            {/* Skills Start */}
+
+            <div>
+                <h1 className="satu animate__animated animate__fadeInLeft Skills" id="Skills">My Basic Skills</h1>
+                </div>
+
+                <div className="container">
+                <div className="row row-cols-1 row-cols-md-3 g-4 animate__animated animate__fadeInLeft">
+                    <div className="col">
+                    <div className="card h-100">
+                        <div className="card-body">
+                        <h5 className="card-title">HTML</h5>
+                        <p className="card-text">bahasa markah standar untuk dokumen yang dirancang untuk ditampilkan di peramban internet. Ini dapat dibantu oleh teknologi seperti Cascading Style Sheets dan bahasa scripting seperti JavaScript dan VBScript.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div className="col">
+                    <div className="card h-100">
+                        <div className="card-body">
+                        <h5 className="card-title">CSS</h5>
+                        <p className="card-text">aturan untuk mengatur beberapa komponen dalam sebuah web sehingga akan lebih terstruktur dan seragam. CSS bukan merupakan bahasa pemograman.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div className="col">
+                    <div className="card h-100">
+                        <div className="card-body">
+                        <h5 className="card-title">Bootstrap</h5>
+                        <p className="card-text">kerangka kerja CSS yang sumber terbuka dan bebas untuk merancang situs web dan aplikasi web. Kerangka kerja ini berisi templat desain berbasis HTML dan CSS untuk tipografi, formulir, tombol, navigasi, dan komponen antarmuka lainnya, serta juga ekstensi opsional JavaScript.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Skills End */}
+            
+
+            {/* Others Start */}
+
+            <div>
+                <h1 className="dua animate__animated animate__fadeInLeft Others" id="Others">My Other Skills</h1>
+                </div>
+
+                <div className="container">
+                    <div className="row row-cols-1 row-cols-md-3 g-4 animate__animated animate__fadeInLeft">
+                    <div className="col">
+                        <div className="card h-100">
+                        <div className="card-body">
+                            <h5 className="judul">Graphic Design</h5>
+                            <p className="text">proses komunikasi menggunakan elemen visual, seperti tipografi, fotografi, serta ilustrasi yang dimaksudkan untuk menciptakan persepsi akan suatu pesan yang disampaikan. Bidang ini melibatkan proses komunikasi visual dan desain komunikasi.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card h-100">
+                        <div className="card-body">
+                            <h5 className="judul">Content Writer</h5>
+                            <p className="text">seorang penulis profesional yang memproduksi konten-konten menarik di media online. Konten yang mereka ciptakan bisa berbentuk artikel blog, post di sosial media, atau apa pun yang ditulis dalam platform online.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card h-100">
+                        <div className="card-body">
+                            <h5 className="judul">SEO</h5>
+                            <p className="text">serangkaian proses yang dilakukan secara sistematis yang bertujuan untuk meningkatkan volume dan kualitas trafik kunjungan melalui mesin pencari menuju situs web tertentu dengan memanfaatkan mekanisme kerja atau algoritma mesin pencari tersebut.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Others End */}
+
+
+
+            {/* Friends start */}
+            <div>
+                <h1 className="tiga animate__animated animate__fadeInLeft Friends" id="Friends">My Close Friends</h1>
+            </div>
+
+                <div className="container">
+                    <div className="row row-cols-1 row-cols-md-3 g-4 animate__animated animate__fadeInLeft">
+                        <div className="col">
+                            <div className="card h-100">
+                                <div className="card-body">
+                                <h5 className="heading">Arya</h5>
+                                <hr className="garis"/>
+                                <p className="alamat">Yogyakarta</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="card h-100">
+                                <div className="card-body">
+                                <h5 className="heading">Christ</h5>
+                                <hr className="garis"/>
+                                <p className="alamat">Yogyakarta</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="card h-100">
+                                <div className="card-body">
+                                <h5 className="heading">Andre</h5>
+                                <hr className="garis"/>
+                                <p className="alamat">Jawa Tengah</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* Friends End */}
+
+
+            {/* Contact Start */}
+            <div className="bg">
+                <div>
+                <h1 className="empat animate__animated animate__fadeInLeft Contact" id="Contact">Contact Me</h1>
+                </div>
+
+                <form>
+                    <div className="container">
+                        <div className="mb-3">
+                            <label htmlFor="exampleFormControlInput1" className="form-label">Full name</label>
+                            <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="your name is...."/>
+                        </div>
+
+                        <div className="mb-3">
+                            <label htmlFor="exampleFormControlInput1" className="form-label">Email address</label>
+                            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
+                        </div>
+
+                        <div className="mb-3">
+                            <label htmlFor="exampleFormControlTextarea1" className="form-label">Message</label>
+                            <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="Type your text..." rows="3"></textarea>
+                        </div>
+
+                        <div className="col-auto">
+                            <button type="submit" className="btn tombol mb-3">Confirm identity</button>
+                        </div>
+                    </div>
+                </form>
+             </div>
+            {/* Contact End */}
+
+            </React.Fragment>
         )
     }
 }
+
+export default Bootstrap;

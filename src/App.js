@@ -1,9 +1,4 @@
-// import Styled from "./Styled";
-
-import Bootstrap from "bootstrap";
-
-
-
+import Bootstrap from "../src/Bootstrap";
 
 function App() {
   return (
