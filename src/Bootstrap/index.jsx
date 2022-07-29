@@ -1,6 +1,7 @@
 // import React from "react";
 import "./style.css";
 import React, { Component } from "react";
+import { Navbar } from "react-bootstrap";
 class Bootstrap extends Component {
 
     render () {
@@ -10,32 +11,30 @@ class Bootstrap extends Component {
            
             {/* navbar start */}
 
-            <nav className="navbar navbar-expand-lg fixed-top">
-                <div className="container-fluid">
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <Navbar collapseOnSelect expand="lg fixed-top">
+              <div className="container-fluid">
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+//                 <Navbar.Collapse className="justify-content-center" id="responsive-navbar-nav">
                     <ul className="navbar-nav">
-                    <li className="nav-item">
-                        <a className="nav-link" href="#Home">Home</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#Skills">Skills</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#Others">Others</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#Friends">Friends</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#Contact">Contact Me</a>
-                    </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#Home">Home</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#Skills">Skills</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#Others">Others</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#Friends">Friends</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#Contact">Contact Me</a>
+                        </li>
                     </ul>
-                </div>
-                </div>
-            </nav>
+                </Navbar.Collapse>
+              </div>
+            </Navbar>
 
             {/* navbar End */}
 
